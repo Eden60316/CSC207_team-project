@@ -18,7 +18,7 @@ This contract sets out shared expectations and commitments for how our team will
 
 ### Communication
 
-* Will you use Wechat for communication outside of class, when required for work on your course project. 
+* We will use Wechat for communication outside of class, when required for work on your course project. 
 
 * Each teammate agrees to respond to messages in at most 1 day.
 
@@ -57,7 +57,7 @@ By signing below, we acknowledge that we have read, discussed, and agreed to the
 
 Team Member Signatures:
 
-Eden Liu
-ShangZhe Jin
-PengZhen Lin
-JiaWen Mei
+Eden Liu  
+ShangZhe Jin  
+PengZhen Lin  
+JiaWen Mei  
