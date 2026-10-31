@@ -21,10 +21,37 @@ Users can search for recipes, view recipe details, filter results, and save reci
 
 ## User Stories
 
-1. As a family member, I want to search for recipes by keyword so that I can find meals I want to cook.
+1. As a family member, I want to search for recipes by keyword so that I can find meals I want to cook.(Lindsay)
 
-2. As a cook, I want to view the details of a recipe so that I can see its ingredients and cooking instructions. (Shangzhe Jin)
+## 2. As a cook, I want to view the details of a recipe so that I can see its ingredients and cooking instructions.
 
-3. As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.
+(Shangzhe Jin)
+### Use Case 2: View Recipe Details
 
-4. As a cook, I want to save recipes to my favorites so that I can easily find them again later.
+**Lead:** Shangzhe Jin
+
+**Primary Actor:** User
+
+**Goal:** Allow users to view the ingredients and cooking instructions of a selected recipe.
+
+**Preconditions:**
+- The user has selected a recipe from search or filter results.
+- A valid recipe ID is available.
+
+**Main Success Scenario:**
+    1. The user clicks "View Details" on a recipe.
+    2. The system receives the selected recipe ID.
+    3. The system retrieves the recipe details from TheMealDB API.
+    4. The system displays the recipe name, image, category, ingredients, measurements, and cooking instructions.
+
+**Alternative Scenarios:**
+- If the recipe cannot be found, an error message is displayed.
+- If the API request fails, the user is informed that the recipe details could not be loaded.
+
+**Postconditions:**
+- The selected recipe's details are displayed to the user.
+- The user can return to the previous page.
+
+3. As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.(Eden)
+
+4. As a cook, I want to save recipes to my favorites so that I can easily find them again later.(Isabella)
