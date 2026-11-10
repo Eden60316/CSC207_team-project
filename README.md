@@ -53,5 +53,32 @@ Users can search for recipes, view recipe details, filter results, and save reci
 - The user can return to the previous page.
 
 3. As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.(Eden)
+### Use Case 3: Filter Recipes
+
+**Lead:** Eden
+
+**Primary Actor:** User
+
+**Goal:** Allow users to filter recipes by category or dietary preference to find recipes that match their needs.
+
+**Preconditions:**
+- The user is on the recipe search or browsing page.
+- Recipe data and available filtering options can be accessed.
+
+**Main Success Scenario:**
+1. The user selects a category or dietary preference from the available filter options.
+2. The system receives the selected filter criteria.
+3. The system retrieves recipe data from TheMealDB API and applies the selected filters.
+4. The system displays a list of recipes that match the selected criteria.
+5. The user can select a recipe to view its details.
+
+**Alternative Scenarios:**
+- If no recipes match the selected filters, the system displays a message indicating that no matching recipes were found.
+- If the API request fails, the user is informed that the filtered recipes could not be loaded.
+- If the user clears the filters, the system displays the unfiltered recipe results.
+
+**Postconditions:**
+- The user can view recipes that match the selected category or dietary preference.
+- The user can modify or clear the filters to explore other recipes.
 
 4. As a cook, I want to save recipes to my favorites so that I can easily find them again later.(Isabella)
