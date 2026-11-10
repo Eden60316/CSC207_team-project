@@ -22,6 +22,33 @@ Users can search for recipes, view recipe details, filter results, and save reci
 ## User Stories
 
 1. As a family member, I want to search for recipes by keyword so that I can find meals I want to cook.(Lindsay)
+### Use Case 1: Search Recipes by Keyword
+
+**Lead:** Lindsay
+
+**Primary Actor:** Family Member
+
+**Goal:** Allow users to search for recipes by keyword to find meals they want to cook.
+
+**Preconditions:**
+- The user is on the recipe search page.
+- A search field is available.
+
+**Main Success Scenario:**
+1. The user enters a keyword in the search field.
+2. The user clicks the "Search" button.
+3. The system receives the keyword and searches for matching recipes using TheMealDB API.
+4. The system displays a list of matching recipes, including their names and images.
+5. The user can select a recipe to view its details.
+
+**Alternative Scenarios:**
+- If the keyword is empty or contains only whitespace, the system asks the user to enter a keyword.
+- If no recipes match the keyword, the system displays a message indicating that no matching recipes were found.
+- If the API request fails, the system informs the user that the search results could not be loaded and allows them to try again.
+
+**Postconditions:**
+- If the search succeeds, matching recipes or a no-results message are displayed.
+- The user can enter another keyword to perform a new search.
 
 ## 2. As a cook, I want to view the details of a recipe so that I can see its ingredients and cooking instructions.
 
