@@ -82,7 +82,9 @@ Users can search for recipes, view recipe details, filter results, and save reci
 3. As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.(Eden)
 ### Use Case 3: Filter Recipes
 
-**Lead:** Eden
+**As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.**
+
+**Lead:** Eden Liu
 
 **Primary Actor:** User
 
