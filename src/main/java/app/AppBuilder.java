@@ -49,7 +49,7 @@ public class AppBuilder {
 
     //Constructor
     public AppBuilder() {
-        this.recipeDao = new MealDbRecipeDataAccessObject();
+        this.recipeDAO = new MealDbRecipeDataAccessObject();
         this.favoriteDAO = new FileFavoriteDataAccessObject();
 
         this.mainFrame = new MainFrame();
