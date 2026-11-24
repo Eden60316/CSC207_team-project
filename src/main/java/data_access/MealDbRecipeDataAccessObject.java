@@ -25,7 +25,12 @@ public class MealDbRecipeDataAccessObject implements RecipeDataAccessInterface {
 
     @Override
     public List<Recipe> searchByName(String keyword){
-        //TODO: Use case 1
+        if (keyword == null || keyword.trim().isEmpty()){
+            return new ArrayList<>();
+        }
+        String query = keyword.trim();
+        String path = "search.php?s=" + encode(query);
+        return parseRecipes(request(path), null);
     }
 
     @Override
