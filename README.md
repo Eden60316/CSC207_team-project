@@ -110,3 +110,55 @@ Users can search for recipes, view recipe details, filter results, and save reci
 - The user can modify or clear the filters to explore other recipes.
 
 4. As a cook, I want to save recipes to my favorites so that I can easily find them again later.(Isabella)
+## Use Case 4: Manage Favorite Recipes
+
+**Lead:** Isabella Mei
+
+**User Story:**
+
+As a cook, I want to save recipes to my favorites so that I can easily find them again later.
+
+### 1. Use Case Description
+
+This use case allows users to save recipes to their favorites, view their saved recipes, and remove recipes from their favorites list.
+
+### 2. Primary Actor
+
+User (Cook)
+
+### 3. Preconditions
+
+- The user has selected a recipe from the search results or recipe details page.
+- The selected recipe has a valid recipe ID.
+
+### 4. Main Success Scenario
+
+1. The user opens a recipe's details page.
+2. The user clicks the "Add to Favorites" button.
+3. The system saves the selected recipe to the favorites list.
+4. The system updates the UI to indicate that the recipe has been saved.
+5. The user opens the Favorites page.
+6. The system displays all saved recipes.
+7. The user can select a saved recipe to view its details.
+
+### 5. Alternative Scenarios
+
+**A. Recipe Already Saved**
+- If the recipe is already in the favorites list, the system prevents duplicate entries.
+
+**B. Remove a Favorite**
+1. The user clicks "Remove from Favorites" on a saved recipe.
+2. The system removes the recipe from the favorites list.
+3. The UI updates to reflect the change.
+
+**C. Empty Favorites List**
+- If the user has not saved any recipes, the system displays a message such as "No favorite recipes yet."
+
+**D. Save Failure**
+- If the system cannot save the recipe, it displays an error message and does not indicate that the operation succeeded.
+
+### 6. Postconditions
+
+- The favorites list reflects any successful additions or removals.
+- The user can access their saved recipes from the Favorites page.
+- If persistent storage is implemented, saved recipes remain available after restarting the application.
