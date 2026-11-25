@@ -79,7 +79,6 @@ Users can search for recipes, view recipe details, filter results, and save reci
 - The selected recipe's details are displayed to the user.
 - The user can return to the previous page.
 
-3. As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.(Eden)
 ### Use Case 3: Filter Recipes
 
 **As a cook, I want to filter recipes by category or dietary preference so that I can find recipes that fit my needs.**
