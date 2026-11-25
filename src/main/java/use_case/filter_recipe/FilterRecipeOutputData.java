@@ -1,5 +1,4 @@
 package use_case.filter_recipe;
-import entity.Recipe;
 import java.util.*;
 
 public class FilterRecipeOutputData {
@@ -21,7 +20,7 @@ public class FilterRecipeOutputData {
         }
 
         public String getName(){return name;}
-        
+
         public String getImageUrl(){return imageUrl;}
 
         public String getCategory(){return category;}
