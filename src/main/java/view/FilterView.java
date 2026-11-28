@@ -1,6 +1,7 @@
 package view;
 import interface_adapter.filter_recipe.*;
 import use_case.filter_recipe.DietaryPreference;
+import use_case.filter_recipe.FilterRecipeOutputData;
 
 import javax.imageio.*;
 import javax.swing.*;
