@@ -82,8 +82,8 @@ public class AppBuilder {
     //Use Case 3: Filter
     public AppBuilder addFilterRecipeUseCase() {
         FilterRecipePresenter presenter = new FilterRecipePresenter(FilterRecipeViewModel);
-        FilterRecipeInputBoundary interacter = new FilterRecipeInteractor(recipeDAO, presenter);
-        ViewRecipeController controller = new FilterRecipeController(interacter);
+        FilterRecipeInputBoundary interactor = new FilterRecipeInteractor(recipeDAO, presenter);
+        ViewRecipeController controller = new FilterRecipeController(interactor);
         filterView = new FilterView(controller, filterViewModel);
         mainFrame.addView("Filter", filterView);
         return this;
